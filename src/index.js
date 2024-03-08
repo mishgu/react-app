@@ -12,6 +12,7 @@ import {
 import './style.css';
 import Home from './views/home';
 import NotFound1, { NotFound } from './views/not-found';
+import QuestionNew from "./views/question-1";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/" />
         <Route component={NotFound1} exact path="/not-found" />
+        <Route component={QuestionNew} exact path="/question1" />
         <Route component={NotFound1} path="**" />
         <Redirect to="**" />
       </Switch>

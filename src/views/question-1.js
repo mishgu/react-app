@@ -9,16 +9,8 @@ import './home.css';
 import Button from "react-bootstrap/Button";
 import {Badge} from "react-bootstrap";
 import background_ from "../images/man-8514870_1920.jpg";
-import { useHistory } from "react-router-dom";
 
-const Home = (props) => {
-  const history = useHistory();
-
-  function handleClick() {
-    history.push("/question1");
-  }
-
-
+const QuestionNew = (props) => {
   return (
     <div className="home-container">
       <div className="home-features">
@@ -28,25 +20,25 @@ const Home = (props) => {
           <div className="home-features1">
             <div className="home-container02">
               <h2 className="home-features-heading heading2">
-                Вкажіть ваш вік
+                Ваш рівень достатку
               </h2>
             </div>
             <div className="home-container03">
               <button className="home-button buttonFilled">
-                25-30
+                до 30,000 тис
               </button>
               <button className="home-button buttonFilled">
-                31-40
+                31-40 тис
               </button>
               <button className="home-button buttonFilled">
-                41-50
+                41-50 тис
               </button>
               <button className="home-button buttonFilled">
-                50+
+                50+ тис
               </button>
             </div>
           </div>
-              <button className="home-next-button buttonFilled" onClick={handleClick}>
+              <button className="home-next-button buttonFilled">
                 -->
               </button>
         </div>
@@ -88,4 +80,4 @@ const Home = (props) => {
   )
 }
 
-export default Home
+export default QuestionNew
