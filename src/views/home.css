@@ -186,6 +186,7 @@
 }
 .home-features-heading {
   margin-bottom: var(--dl-space-space-oneandhalfunits);
+  color: white;
 }
 .home-features-sub-heading {
   font-size: 18px;
