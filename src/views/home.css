@@ -13,7 +13,7 @@
   position: fixed;
   align-items: center;
   flex-direction: column;
-  /*background-color: var(--dl-color-gray-white);*/
+  margin-bottom: 100px;
 }
 .home-desktop-menu {
   flex: 1;
@@ -304,8 +304,8 @@
 }
 .home-next-button {
   width: 100px;
-  margin-left: auto;
-  margin-right: 30px;
+  margin-right: auto;
+  margin-left: 30px;
   margin-top: auto;
   margin-bottom: 30px;
 }

@@ -12,7 +12,7 @@ import {
 import './style.css';
 import Home from './views/home';
 import NotFound1, { NotFound } from './views/not-found';
-import QuestionNew from "./views/question-1";
+import QuestionNew from "./views/question1";
 
 const App = () => {
   return (
